@@ -1,5 +1,4 @@
 let myLeads = []
-
 const inputEl = document.querySelector('#input-el')
 const inputBtn = document.querySelector('#input-btn')
 const ulEl = document.querySelector('#ul-el')
@@ -10,16 +9,18 @@ inputBtn.addEventListener('click', function() {
     renderLeads()
 })
 
-function renderLeads() {
+
+const renderLeads = () => {
     let listItems = ''
-    for (i = 0; i < myLeads.length; i++) {
+
+    for (let i = 0; i < myLeads.length; i++) {
         listItems += `
-        <li>
-        <a href="${myLeads[i]}" target="_blank">
-        ${myLeads[i]}
-        </a>
-        </li>
+            <li>
+                <a href='${myLeads[i]}' target='_blank'>
+                     ${myLeads[i]}
+                </a>
+            </li>
         `
     }
-    ulEl.innerHTML = listItems
+        ulEl.innerHTML = listItems
 }
