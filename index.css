@@ -18,15 +18,20 @@ button {
     color: white;
     background-color: #5f9341;
     padding: .625em 1.25em;
-    border: none;
+    border: 1px solid #5f9341;
     margin-top: .5em;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background-color: #fff;
+    color: #5f9341;
 }
 
 ul {
     list-style-type: none;
-    /* margin: 0; */
     padding: 0;
 }
 
