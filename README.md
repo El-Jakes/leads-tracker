@@ -9,9 +9,9 @@ Clone the repository by running the below command in the terminal
 ```sh
 git clone https://github.com/El-Jakes/leads-tracker.git
 ```
-Navigate to <a href="chrome://extensions">chrome://extensions</a> in your Chrome browser
+Navigate to [chrome://extensions](https://chrome://extensions) in your Chrome browser
 Click on the developer mode button to toggle it on as seen below
-<img src="https://ibb.co/XysBH7J" alt=" chrome extension interface with an arrow showing where to toggle on developer mode" width="600px">
+<img src="https://i.ibb.co/3fNXKph/chrome-clip.png" alt=" chrome extension interface with an arrow showing where to toggle on developer mode" border="0" width="600px">
 Click on Load unpacked button.
 <img src="https://ibb.co/3Wt0Xys" alt=" chrome extension interface with an orange arrow pointing to the Load unpacked button" width="600px">
 When the Load unpacked button is clicked, your file explorer will pop up
